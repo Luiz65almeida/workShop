@@ -2,5 +2,7 @@ package com.example.workShop.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository  extends JPA <User, Long>   {
+import com.example.workShop.entities.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
 }
