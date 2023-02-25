@@ -30,7 +30,7 @@ public class OrderItem implements Serializable {
         id.setProduct(product);
         this.quantity = quantity;
         this.price = price;
-    }
+    } 
 
     @JsonIgnore
     public Order getOrder() {
